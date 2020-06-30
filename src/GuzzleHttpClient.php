@@ -4,7 +4,6 @@
 namespace Pis0sion\guzzle;
 
 use GuzzleHttp\Client;
-use http\Exception\RuntimeException;
 use Pis0sion\guzzle\concert\IHttpClientInterface;
 
 /**
@@ -38,7 +37,7 @@ class GuzzleHttpClient implements IHttpClientInterface
         try {
             return $this->httpClient->request("POST", $httpUrl, ['form_params' => $requestParameter])->getBody()->getContents();
         } catch (\Throwable $throwable) {
-            throw new RuntimeException($throwable->getMessage());
+            throw $throwable;
         }
     }
 
