@@ -1,0 +1,10 @@
+<?php
+// 基础配置文件
+return [
+    "publicKey" => "-----BEGIN PUBLIC KEY-----
+MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDc+CZK9bBA9IU+gZUOc6FUGu7y
+O9WpTNB0PzmgFBh96Mg1WrovD1oqZ+eIF4LjvxKXGOdI79JRdve9NPhQo07+uqGQ
+gE4imwNnRx7PFtCRryiIEcUoavuNtuRVoBAm6qdB0SrctgaqGfLgKvZHOnwTjyNq
+jBUxzMeQlEC2czEMSwIDAQAB
+-----END PUBLIC KEY-----",
+];

@@ -1,0 +1,35 @@
+{
+    "name": "pis0sion/pis0sion-unicom",
+    "description": "Unicom common interface",
+    "type": "library",
+    "require": {
+        "php": ">=7.1.1",
+        "topthink/framework": "^6.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "ext-http": "*",
+        "ext-openssl": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "pis0sion",
+            "email": "zihuang2010@126.coom"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Pis0sion\\guzzle\\": "src"
+        }
+    },
+    "extra": {
+        "think": {
+            "services": [
+                "Pis0sion\\guzzle\\Service"
+            ],
+            "config":{
+                "unicom": "src/config.php"
+            }
+        }
+    }
+}
