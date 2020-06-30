@@ -5,9 +5,7 @@
     "require": {
         "php": ">=7.1.1",
         "topthink/framework": "^6.0",
-        "guzzlehttp/guzzle": "^7.0",
-        "ext-http": "*",
-        "ext-openssl": "*"
+        "guzzlehttp/guzzle": "^7.0"
     },
     "license": "MIT",
     "authors": [
