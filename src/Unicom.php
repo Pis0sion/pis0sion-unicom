@@ -9,5 +9,8 @@ namespace Pis0sion\guzzle;
  */
 class Unicom extends HttpEmitter
 {
-
+    public function handle()
+    {
+        return $this->encryptor->encrypt("hello");
+    }
 }
